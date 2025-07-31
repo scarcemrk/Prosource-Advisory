@@ -83,13 +83,16 @@
                   class="main_menu_list unordered_list_center d-flex flex-column flex-lg-row gap-3 align-items-lg-center mb-0">
                   <li class="active"><a href="index.html">Home</a></li>
                   <li class="dropdown">
-                    <a class="nav-link" href="#" id="service_submenu" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Courses
+                    <a class="nav-link" href="services.html" id="service_submenu" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="service_submenu">
+                      <li><a href="services.html">Our Services</a></li>
                       <li><a href="general_duty_assistant.html">GDA Course</a></li>
                       <li><a href="government_to_government_agreement.html">G2G Training</a></li>
+                      <li><a href="bone_visa_training.html">B2B Training</a></li>
+
                     </ul>
                   </li>
                   <li><a class="nav-link" href="team.html">Team</a></li>
@@ -105,7 +108,7 @@
       </div>
     </header>
     <!-- Site Header - End
-      ================================================== -->
+        ================================================== -->
 
 
     <!-- Main Body - Start
@@ -129,6 +132,17 @@
                   please contact
                 </p>
               </div>
+              <form action="#">
+                <div class="form_item mb-0">
+                  <input type="search" name="search" placeholder="What do you want to learn ?">
+                  <button type="submit" class="btn btn_dark">
+                    <span>
+                      <small>Search</small>
+                      <small>Search</small>
+                    </span>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -143,52 +157,64 @@
           <div class="row">
             <div class="col col-lg-5">
               <div class="pe-lg-5">
-                <div class="section_heading">
-                  <h2 class="heading_text">
-                    Contact Us
-                  </h2>
+                <!-- Section Heading -->
+                <div class="section_heading mb-4">
+                  <h2 class="heading_text mb-2">Contact Us</h2>
                   <p class="heading_description mb-0">
-                    Viverra maecenas accumsan lacus vel facilisis volutpat. Faucibus purus in massa tempor nec feugiat
-                    nisl
+                    We are here to assist you with any inquiries or support you need. Feel free to reach out to us via phone, email, or visit our offices. Our team is dedicated to providing you with the best service and guidance.
                   </p>
                 </div>
-                <div class="iconbox_item contact_info_iconbox">
-                  <div class="item_icon">
-                    <i class="fas fa-phone"></i>
+
+                <!-- Phone Info -->
+                <div class="iconbox_item contact_info_iconbox d-flex mb-4">
+                  <div class="item_icon me-3">
+                    <i class="fas fa-phone fs-4"></i>
                   </div>
                   <div class="item_content">
-                    <h3 class="item_title">Call Us</h3>
-                    <p class="mb-0">+91 93270 47171 (Ahmedabad)</p>
-                    <p class="mb-0">+91 77439 92291 (Ahmedabad)</p>
-                    <p class="mb-0">+91 84880 61372 (Nadiad)</p>
-                    <p class="mb-0">+91 96384 26274 (Porbandar)</p>
+                    <h5 class="item_title mb-2">Call Us</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li><strong>Ahmedabad:</strong> +91 77439 92291</li>
+                      <li><strong>Ahmedabad:</strong> +91 93270 47171</li>
+                      <li><strong>Nadiad:</strong> +91 84880 61372</li>
+                      <li><strong>Porbandar:</strong> +91 95584 69898</li>
+                    </ul>
                   </div>
                 </div>
-                <div class="iconbox_item contact_info_iconbox">
-                  <div class="item_icon">
-                    <i class="fas fa-envelope"></i>
+
+                <!-- Email Info -->
+                <div class="iconbox_item contact_info_iconbox d-flex mb-4">
+                  <div class="item_icon me-3">
+                    <i class="fas fa-envelope fs-4"></i>
                   </div>
                   <div class="item_content">
-                    <h3 class="item_title">Email Address</h3>
-                    <p class="mb-0">prosource83@gmail.com</p>
+                    <h5 class="item_title mb-2">Email Address</h5>
+                    <p class="mb-0">
+                      <a href="mailto:prosource83@gmail.com"
+                        class="text-decoration-none text-dark">prosource83@gmail.com</a>
+                    </p>
                   </div>
                 </div>
-                <div class="iconbox_item contact_info_iconbox">
-                  <div class="item_icon">
-                    <i class="fas fa-location-dot"></i>
+
+                <!-- Address Info -->
+                <div class="iconbox_item contact_info_iconbox d-flex">
+                  <div class="item_icon me-3">
+                    <i class="fas fa-location-dot fs-4"></i>
                   </div>
                   <div class="item_content">
-                    <h3 class="item_title">Reach Us</h3>
-                    <p class="mb-0">1108, Ganesh Glory, Nr. SBI Building, Jagatpur Road,</p>
-                    <p class="mb-0">S.G. Highway, Gota, Ahmedabad-382470</p>
+                    <h5 class="item_title mb-2">Reach Us</h5>
+                    <address class="mb-0">
+                      1108, Ganesh Glory, Nr. SBI Building, Jagatpur Road,
+                      S.G. Highway, Gota, Ahmedabad-382470
+                    </address>
                   </div>
                 </div>
               </div>
+
             </div>
             <div class="col col-lg-7">
               <div class="gmap_canvas">
                 <iframe id="gmap_canvas_iframe"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.5411924386317!2d72.541278!3d23.11388555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1750314433857!5m2!1sen!2sin"></iframe>
               </div>
             </div>
           </div>
@@ -311,7 +337,7 @@
       ================================================== -->
 
     <!-- Site Footer - Start -->
-    <footer class="site_footer">
+    <footer class="site_footer bg_dark">
       <div class="footer_widget_area py-5">
         <div class="container">
           <div class="row gy-4">
@@ -321,52 +347,53 @@
               <div class="footer_widget">
                 <div class="site_logo mb-3">
                   <a href="index.html">
-                    <img src="assets/images/logo/logo.png" alt="Prosource Advisory Pvt. Ltd." style="max-height: 80px;"
-                      class="img-fluid">
+                    <img src="assets/images/logo/logo.png" alt="Prosource Advisory Pvt. Ltd." class="img-fluid"
+                      style="max-height: 80px;">
                   </a>
                 </div>
                 <p class="mb-3">Empowering opportunities through skill-based training and global career guidance.</p>
                 <ul class="social_links list-inline mb-0">
                   <li class="list-inline-item">
-                    <a href="#!" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/people/prosourceadvisory/61574161366225/" target="_blank"
+                      referrerpolicy="no-referrer" rel="noopener noreferrer" class="text-dark"><i
+                        class="fab fa-facebook-f"></i>
+                    </a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#!" class="text-dark"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/prosource_advisory" target="_blank" referrerpolicy="no-referrer"
+                      rel="noopener noreferrer" class="text-dark"><i class="fab fa-instagram"></i>
+                    </a>
                   </li>
-                  <li class="list-inline-item">
-                    <a href="#!" class="text-dark"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#!" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
+                  <li class="list-inline-item"><a href="https://wa.me/917743992291" target="_blank" referrerpolicy="no-referrer"
+                    rel="noopener noreferrer" class="text-dark"><i class="fab fa-whatsapp"></i></a>
+                </li>
                 </ul>
               </div>
             </div>
 
-            <!-- Quick Links -->
+            <!-- Quick Links & Support -->
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-md-6">
                   <div class="footer_widget">
-                    <h5 class="footer_widget_title">Quick Links</h5>
+                    <h5 class="footer_widget_title mb-3">Quick Links</h5>
                     <ul class="list-unstyled">
                       <li><a href="about.html"><i class="fas fa-caret-right me-2"></i>About</a></li>
                       <li><a href="general_duty_assistant.html"><i class="fas fa-caret-right me-2"></i>GDA Course</a>
                       </li>
                       <li><a href="government_to_government_agreement.html"><i class="fas fa-caret-right me-2"></i>G2G
                           Training</a></li>
+                      <li><a href="bone_visa_training.html"><i class="fas fa-caret-right me-2"></i>B2B
+                          Training</a></li>
                       <li><a href="team.html"><i class="fas fa-caret-right me-2"></i>Team</a></li>
                     </ul>
                   </div>
                 </div>
-
                 <div class="col-md-6">
                   <div class="footer_widget">
-                    <h5 class="footer_widget_title">Support</h5>
+                    <h5 class="footer_widget_title mb-3">Support</h5>
                     <ul class="list-unstyled">
-                      <li><a href="faq.html"><i class="fas fa-caret-right me-2"></i>FAQ</a></li>
-                      <li><a href="contact.html"><i class="fas fa-caret-right me-2"></i>Contact</a>
-                      </li>
+                      <li><a href="contact.html"><i class="fas fa-caret-right me-2"></i>Contact</a></li>
                       <li><a href="#!"><i class="fas fa-caret-right me-2"></i>Security</a></li>
                       <li><a href="#!"><i class="fas fa-caret-right me-2"></i>Privacy Policy</a></li>
                     </ul>
@@ -378,17 +405,30 @@
             <!-- Contact Information -->
             <div class="col-lg-3 col-md-6">
               <div class="footer_widget">
-                <h5 class="footer_widget_title">Contact Information</h5>
-                <ul class="list-unstyled">
-                  <li><i class="fas fa-map-marker-alt me-2"></i>1108, Ganesh Glory, Nr. SBI Building, Jagatpur Road,
-                    S.G. Highway, Gota, Ahmedabad-382470</li>
-                  <li><i class="fas fa-phone me-2"></i>+91 93270 47171 (Ahmedabad)</li>
-                  <li><i class="fas fa-phone me-2"></i>+91 77439 92291 (Ahmedabad)</li>
-                  <li><i class="fas fa-phone me-2"></i>+91 84880 61372 (Nadiad)</li>
-                  <li><i class="fas fa-phone me-2"></i>+91 96384 26274 (Porbandar)</li>
-                  <li><i class="fas fa-envelope me-2"></i>prosource83@gmail.com</li>
-                  <li><i class="fas fa-clock me-2"></i>Mon - Sat: 9:00AM - 6:00PM</li>
-                </ul>
+                <h5 class="footer_widget_title mb-3">Contact Information</h5>
+
+                <div class="mb-3">
+                  <strong>Ahmedabad Office</strong>
+                  <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>1108, Ganesh Glory, Nr. SBI Building,
+                    Jagatpur Road, S.G. Highway, Gota, Ahmedabad-382470</p>
+                  <p class="mb-1"><i class="fas fa-phone me-2"></i>+91 93270 47171</p>
+                  <p class="mb-1"><i class="fas fa-phone me-2"></i>+91 91736 11811</p>
+                </div>
+
+                <div class="mb-3">
+                  <strong>Porbandar Office</strong>
+                  <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>Narsingh Tekara, City Point Building, Ground
+                    Floor, Porbandar, Gujarat-360575</p>
+                  <p class="mb-1"><i class="fas fa-phone me-2"></i>+91 95584 69898</p>
+                </div>
+
+                <div class="mb-3">
+                  <strong>Nadiad Office</strong>
+                  <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>Shop No. 3, Janki Apartment, Opp. Ramdevpir
+                    Temple, Pij Road, Nadiad-387002</p>
+                </div>
+
+                <p class="mb-0"><i class="fas fa-clock me-2"></i>Mon - Sat: 9:00AM - 6:00PM</p>
               </div>
             </div>
 
@@ -397,7 +437,7 @@
       </div>
 
       <!-- Copyright -->
-      <div class="copyright_widget text-light py-3">
+      <div class="copyright_widget bg_dark text-light py-3">
         <div class="container text-center">
           <small>
             &copy; 2025 <a href="#" class="text-light text-decoration-underline">Prosource Advisory</a>. All rights
@@ -407,6 +447,7 @@
       </div>
     </footer>
     <!-- Site Footer - End -->
+
 
   </div>
   <!-- Body Wrap - End -->
